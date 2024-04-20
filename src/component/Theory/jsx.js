@@ -1,0 +1,1 @@
+// JSX stands for JavaScript XML and it is an XML-like syntax extension to ECMAScript.

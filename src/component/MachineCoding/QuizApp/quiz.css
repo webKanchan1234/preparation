@@ -1,0 +1,34 @@
+.quiz{
+    width: 50%;
+    margin: 2vmax auto;
+}
+.quiz h2{
+    text-align: center;
+    padding-bottom: 0.5vmax;
+}
+.question{
+    border: 1px solid black;
+    padding: 1vmax;
+    margin-bottom: 1vmax;
+}
+.question h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2vmax;
+}
+.next{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 90%;
+}
+.next-btn{
+    padding: 1vmax 2vmax;
+    width: 40%;
+    margin: 0.5vmax;
+    cursor: pointer;
+}
+.next-btn p{
+    font-size: 1vmax;
+}

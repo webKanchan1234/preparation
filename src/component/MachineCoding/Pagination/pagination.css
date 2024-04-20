@@ -1,0 +1,22 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+.card{
+    width: 20%;
+    margin: 1vmax;
+}
+.card .images{
+    width: 20%;
+    height: 300px;
+}
+.card .images img{
+    width: 250px;
+    /* height: 300px; */
+}
+.btn-page{
+    padding: 0.5vmax 1vmax;
+    margin: 0.1vmax;
+}

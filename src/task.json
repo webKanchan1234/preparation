@@ -1,0 +1,36 @@
+{
+    "taskId": "",
+    "taskName": "",
+    "taskDescription": "",
+    "jsonFile": {
+        "workflowId": "",
+        "client": {
+            "clientId": "",
+            "clientName": "",
+            "clientDescription": "",
+            "clientURL": ""
+        },
+        "stage": {
+            "name": "",
+            "description": "",
+            "task": {
+                "taskId": "",
+                "name": "",
+                "inputs": [
+                    {
+                        "label": "",
+                        "value": ""
+                    },
+                    {
+                        "label": "",
+                        "value": ""
+                    },
+                    {
+                        "label": "",
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    }
+}

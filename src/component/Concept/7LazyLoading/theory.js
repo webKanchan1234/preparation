@@ -1,0 +1,5 @@
+// Lazy Loading in React JS helps to optimize the performance of React applications. The data is only rendered when visited or scrolled it can be images, scripts, etc. Lazy loading helps to load the web page quickly and presents the limited content to the user that is needed for the interaction lazy loading can be more helpful in applications that have high-resolution images or data that alters the loading time of the application.
+
+// Lazy loading is a technique in React that allows you to load components, modules, or assets asynchronously, improving the loading time of your application. React provides a built-in React.lazy() method and Suspense component to achieve lazy loading.
+
+// React Suspense provides better feedback to the user and improves the user experience as a user is not facing any blank screen or space while the content is being loaded. React Suspense is designed to handle the loading of the components that make asynchronous API requests. React Suspense can be used by wrapping the `<Suspense>` component and specifying the fallback content displayed while the component or data is loading. 
