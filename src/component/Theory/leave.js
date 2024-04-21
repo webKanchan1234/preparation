@@ -1,30 +1,18 @@
-// how react different from others framework or library
-// usememo callback difference and why we neet it, how to optimise performace
-// hoc what problem solved 
+//current project and responsibility
+// why need spread opr and rest while push mtd available
+// how to convert function to class component or vice-versa
+// difference b/t context api and redux
+// middleware in redux
+//use case in thunk
+//difference pure react and next js
 
-//build tool webpack configuration file prechecking intry and output point
-//code-spliting
-//use of type checking
-//perfomance optimisation ways
-//react version
-//how to update state in class component
-//difference b/w post, put,patch
-// structure of jwt
- 
-
-// where use ref
-//where we use index as key
-//limitation of pure component
-// usestate sync or async and why 
-// can we create react library without 
-// diffence b/t element and component
-// interceptor
-// how to manage nested routes in terms of role based
-
-// ----------------------javascript-------------
-//temporal deadzone
-// alternate way for loop var let 
-//prototype
+// ------------------------javascript------------------------
+// difference b/t json and object 
+// shallow copy and deep copy
+// object freeze nad seal
+// setTimeOut and setIntetval
+// prototype inheritance
+//why we go typescript instead of javascript
 
 
 // ----------------------html-------------
