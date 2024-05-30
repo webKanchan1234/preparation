@@ -89,6 +89,7 @@
 //  }; 
 //  console.log(new x (1,2,3)); // Output: Arguments(3) [1, 2, 3, callee: ƒ, Symbol(Symbol.iterator): ƒ]
 
+
 // // Using Arrow function
 //  let x = ()=> { 
 //      console.log(arguments);

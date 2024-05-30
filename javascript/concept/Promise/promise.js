@@ -11,6 +11,9 @@ const promise1 = new Promise(function (resolve, reject) {
     resolve("hello"),
         reject("error")
 })
+promise.then(res => {
+    console.log(res)
+})
 
 promise1.then(res => {
     console.log(res)
@@ -36,38 +39,37 @@ new Promise(function (resolve, reject) {
     });
 
 
-    // ----------------------------- PROMISE ALL ------------------------
+// ----------------------------- PROMISE ALL ------------------------
 console.log("------------------------ PROMISE ALL ------------------------")
 
 
-const promisex=new Promise((resolve)=>{
+const promisex = new Promise((resolve) => {
     resolve("promise x")
 },
-(reject)=>{
-    reject("reject promise x")
-}
+    (reject) => {
+        reject("reject promise x")
+    }
 )
 
 
-const promisey=new Promise((resolve)=>{
+const promisey = new Promise((resolve) => {
     resolve("promise y")
 },
-(reject)=>{
-    reject("reject promise y")
-}
+    (reject) => {
+        reject("reject promise y")
+    }
 )
 
-
-const promisez=new Promise((resolve)=>{
+const promisez = new Promise((resolve) => {
     resolve("promise z")
 },
-(reject)=>{
-    reject("reject promise z")
-}
+    (reject) => {
+        reject("reject promise z")
+    }
 )
 
 
-Promise.all([promisex,promisey,promisez]).then(res=>{
+Promise.all([promisex, promisey, promisez]).then(res => {
     console.log(res)
 })
 
@@ -77,11 +79,11 @@ Promise.all([promisex,promisey,promisez]).then(res=>{
 console.log("------------------------ PROMISE RACE ------------------------")
 var promiseRace1 = new Promise(function (resolve, reject) {
     setTimeout(resolve, 500, "one");
-  });
-  var promiseRace2 = new Promise(function (resolve, reject) {
+});
+var promiseRace2 = new Promise(function (resolve, reject) {
     setTimeout(resolve, 100, "two");
-  });
-  
-  Promise.race([promiseRace1, promiseRace2]).then(function (value) {
+});
+
+Promise.race([promiseRace1, promiseRace2]).then(function (value) {
     console.log(value); // "two" // Both promises will resolve, but promise2 is faster
-  });
+});
