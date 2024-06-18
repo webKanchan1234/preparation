@@ -1,0 +1,24 @@
+
+
+Write a function that takes a string as input and replace the space with “%?”
+
+Given an expression string exp, write a program to examine whether the pairs and the orders of “{“, “}”, “(“, “)”, “[“, “]” are correct in exp.
+
+
+
+
+
+
+
+50 Red and 50 Blue balls probability puzzle
+
+5 Pirates and 100 coins
+
+There are 7 gates between you and your friend and you have to give 2 chocolates to your friend at the end.
+
+
+Digits of int ae in ascending or descending or not specified. Ex: 1378 – acs order, 743 – desc order, 3574 – no specific order
+
+
+List of marks are there, Tell the rank of the entered new mark. Ex: Marks List: {39, 38, 38, 36, 34, 31, 28}, if added mark is: 38: Rank2, 37:Rank3, 36:Rank3
+It was like a puzzle, 2 watches are there 1 for hrs(24) and 1 for min(60), Calculate the shortest unit distance between the 2 times from these watches. Ex: t1=03:56, t2:18:12 Distance=9+16=25. Soln: min(h2 – h1, 24 – h2 + h1)+min(m2-m1, 60-m2+m1), where h2 is the greater hr, m2 is the greater min. Try it. The interviewer was surprised to see the solution so quickly from my end.
