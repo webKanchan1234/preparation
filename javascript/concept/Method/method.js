@@ -21,7 +21,7 @@ display.call(obj1,"Hi","your is")
 //---------------------- APPLY--------------------
 
 
-display.apply(obj1,["Hi","your is"])
+display.apply(obj1,["Hi","your age is"])
 
 let returnFunction=display.bind(obj1)
 returnFunction("Hi","your is")
